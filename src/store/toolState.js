@@ -3,7 +3,7 @@ import {makeAutoObservable} from "mobx";
 class ToolState {
   tool = null;
   constructor() {
-    makeAutoObservable(this) // делает данные, которые хранянтся в этом классе - отслеживаемыми
+    makeAutoObservable(this) // делает данные, которые хранятся в этом классе - отслеживаемыми
   }
 
   setTool(tool) {
